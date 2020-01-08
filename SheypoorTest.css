@@ -1,0 +1,351 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('./fonts/Parastoo.eot');
+    src: url('./fonts/Parastoo.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Parastoo.woff') format('woff'),
+    url('./fonts/Parastoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ParastooBold;
+    src: url('./fonts/Parastoo-Bold.eot');
+    src: url('./fonts/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Parastoo-Bold.woff') format('woff'),
+    url('./fonts/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%; /* percent of its parent*/
+    background-color: #f4f5f7;
+    padding: 5px 5px 5px 5px; /*top right bottom left*/
+    /*padding-right: 20px;*/
+}
+
+.positionContainer {
+    display: flex;/* none // inline // block // inline-block // flex*/
+    /*width: 70%;*/
+    margin: auto;
+    justify-content: space-between; /* nahve y gharar giri bache hay in div // faghat dar display hay flex kar mikone*/
+
+}
+
+.navbarItem {
+    text-decoration: none;
+    color: black;
+    font-family: Parastoo;
+}
+
+.navbarRightItem {
+    margin: 0px 10px 0px 10px;
+}
+
+.navbarItem :hover {
+    color: yellow;
+}
+
+.اheader {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+}
+
+#verifyAdButton {
+    font-family: Parastoo;
+    font-size: 12px;
+    color: white;
+    background-color: #198ad6;
+    padding: 8px; /* hamegi mazrabe 8 4 16 inA mafhoom ba standard ast */
+    border: 0;
+    /*border-width: 5px;
+    border-color: violet;	*/
+    border-radius: 24px 24px 24px 24px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#logo {
+    width: 15px;
+    width: 100px;
+}
+
+.main {
+    width: 100%;
+    background-color: #f4f5f7;
+    padding-top: 16px;
+}
+
+.columnDir {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Parastoo;
+}
+
+.searchBar {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+.shadowBehind {
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+#searchInput {
+    width: 70%;
+    font-family: Parastoo;
+    height: 50px;
+    padding: 24px;
+    border: 1px solid #bbbcbf;
+    border-radius: 5px;
+}
+
+#searchButton {
+    font-family: Parastoo;
+    width: 20%;
+    height: 50px;
+    /*padding: 24px;*/ /* be button say konid padding nadid andaze y ouno bozorg konid ya fontesho bozorg konid
+						foghesh padding chap va rast bedid padding bala paein nadim hich vaght*/
+    background-color: #eaedf2;
+    border: 1px solid #bbbcbf;
+    border-radius: 5px;
+}
+
+
+/* ////////////////// */
+
+.cards {
+    display: flex;
+}
+
+.cardContainer {
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2px 16px;
+    flex-basis: auto;
+}
+
+.cardItem {
+    text-decoration: none;
+    color: black;
+    font-family: Parastoo;
+    vertical-align: top;
+}
+
+.cardItem :hover {
+    color: orange;
+}
+
+.cardRight {
+    margin: 0px 10px 0px 10px;
+}
+
+.cardsContent {
+    width: 25%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.after-cardContainer {
+    clear: left;
+}
+
+.allItem {
+    color: blue;
+}
+
+.items {
+    font-family: Parastoo;
+    font-size: 12px;
+    color: grey;
+    background-color: white;
+    padding: 2px; /* hamegi mazrabe 8 4 16 inA mafhoom ba standard ast */
+    /*border: 0;*/
+    /*border-width: 5px;
+    border-color: violet;	*/
+    border-radius: 24px 24px 24px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    margin-top: 4px; /*4px 2px 4px;*/
+}
+
+.items :hover {
+    color: orange;
+}
+
+.cardsContent2 {
+    width: 16%;
+    margin: auto;
+
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardLogosContainer {
+    margin: auto;
+    width: 20px;
+}
+
+.cardItem2 {
+    text-decoration: none;
+    color: black;
+    font-family: Parastoo;
+    vertical-align: top;
+
+
+    margin: auto;
+    text-align: center;
+}
+
+.cardItem2 :hover {
+    color: orange;
+}
+
+.margin {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.ads {
+    font-family: Parastoo;
+    color: grey;
+}
+
+.cardsContent3 {
+    width: 25%;
+
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 0px 5px 0px 5px;
+    font-family: Parastoo;
+}
+
+.pictureContainer {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardItem3 {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.cardItem3 :hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.otherText {
+    color: grey;
+}
+
+.otherText2 {
+    margin-right: 0px;
+}
+
+.downMargin {
+    margin-bottom: 10px;
+}
+
+.lastButton {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.lastButt {
+    font-family: Parastoo;
+    font-size: 14px;
+    color: white;
+    background-color: #f4f5f7;;
+    padding: 8px; /* hamegi mazrabe 8 4 16 inA mafhoom ba standard ast */
+    /*border-width: 5px;
+    border-color: violet;	*/
+    border-radius: 24px 24px 24px 24px;
+    cursor: pointer;
+    color: #198ad6;
+    border-color: #198ad6;
+    margin: auto;
+    border-style: solid;
+}
+
+.lastButt :hover {
+    color: orange;
+}
+
+
+footer {
+    width:100%;
+    background-color: lavender;
+    min-height:200px;
+    font-family: Parastoo;
+}
+
+.rightFooter {
+    /*width: 50%;&*/
+    height:200px;
+    float:right;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 15%;
+}
+
+.column {
+    width:15%;
+    box-sizing: border-box;
+    height:200px;
+    float:right;
+    /*margin-top: 20px;
+    /*margin:0 10px;*/
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#meta-links {
+    margin-top: 0;
+    width:100%;
+    background-color: lightgray;
+    float:left;
+    height:50px;
+    color: grey;
+}
+
+.footerItem {
+    text-decoration: none;
+    color: grey;
+}
+
+.footerItem :hover {
+    color: black;
+}
